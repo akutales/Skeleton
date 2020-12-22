@@ -1,16 +1,23 @@
 a:hover {
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: #ee1e3a;
 }
 
 a {
   text-decoration: none;
   text-align: center;
-  color: #a72323;
+  color: rgb(0, 0, 0);
 }
 
 .head {
   text-align: center;
+}
+
+body {
+  background-image: url(../images/websitebg3.png);
+
+  background-size: cover;
+  background-position: center;
 }
 
 .logo {
@@ -37,6 +44,9 @@ a {
   }
   .logo {
     text-align: right;
+  }
+  body {
+    background-image: url(../images/websitebackground-03.png);
   }
 }
 
